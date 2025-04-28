@@ -43,6 +43,8 @@ export const postNewInfo = (req, res) => {
 
 export const serviceForTesting = (req, res) => {
   const { body } = req
+  console.log('body de ingreso', body);
+  
   res.json({
     message: 'Servicio llega con exito',
     body
