@@ -40,3 +40,11 @@ export const postNewInfo = (req, res) => {
   //   })
   // })
 }
+
+export const serviceForTesting = (req, res) => {
+  const { body } = req
+  res.json({
+    message: 'Servicio llega con exito',
+    body
+  })
+}
