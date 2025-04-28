@@ -18,6 +18,7 @@ export const getAll = (req, res) => {
 
 export const postNewInfo = (req, res) => { 
   const { body } = req
+  console.log('Info insert', body);
   res.json({
     message: 'Informacion para insertar',
     body
